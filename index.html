@@ -314,9 +314,12 @@
       document.getElementById('form_contact').addEventListener('submit', function(event) {
         event.preventDefault();
         openModal();
-        emailjs.sendForm('service_acfq5uo', 'template_32lpmwm', this)
+
+        let form = this;
+        emailjs.sendForm('service_acfq5uo', 'template_32lpmwm', form)
             .then(function() {
                 console.log('SUCCESS!');
+                form.reset();
             }, function(error) {
                 console.log('FAILED...', error);
                 alert("Echec lors de lu traitement, vous pouvez nous contacter directement avec l'adresse: contact@lebdiouilleurdesalpes.fr");
