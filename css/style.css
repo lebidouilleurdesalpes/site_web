@@ -248,39 +248,6 @@ b {
     color: #ffffff;
 }
 
-.paddind_bottom_0 {
-     padding-bottom: 0 !important;
-}
-
-.btn-custom {
-     margin-top: 20px;
-     background-color: transparent !important;
-     border: 2px solid #ddd;
-     padding: 12px 40px;
-     font-size: 16px;
-}
-
-.lead {
-     font-size: 18px;
-     line-height: 30px;
-     color: #767676;
-     margin: 0;
-     padding: 0;
-}
-
-.form-control:focus {
-     border-color: #ffffff !important;
-     box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
-}
-
-.navbar-form input {
-     border: none !important;
-}
-
-.badge {
-     font-weight: 500;
-}
-
 blockquote {
      margin: 20px 0 20px;
      padding: 30px;
@@ -301,10 +268,6 @@ button {
 .layout_padding {
      padding-top: 56px;
      padding-bottom: 0px;
-}
-
-.padding_0{
-     padding: 0px;
 }
 
 .logo {
